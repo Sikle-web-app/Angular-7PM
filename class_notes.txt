@@ -314,6 +314,67 @@ npx gitignore node
     - used to avoid the movement of libraries to GitHub Repository.
 
 
+component
+=========
+    - simple typescript class behaves like component.
+
+    - angular applications are component based applications.
+
+    - because of components, code reusablility is "high" in "angular".
+
+    - components are "reusable".
+
+    - as a angular developer, we can provide communication between one component to another component.
+
+> ng new componentApp
+
+********************************************
+componentApp
+           src
+             app
+               first.component.ts
+               first.component.html
+
+
+               app.module.ts
+           index.html
+********************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
