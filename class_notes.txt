@@ -1,0 +1,414 @@
+02-03-2021
+==========
+1) Installation of Angular11
+
+2) create the Angular11 Project
+
+3) Directory Structure of Angular11 Project
+
+
+Installation of Angular11
+=========================
+1) download and install NodeJS
+
+    - npm is the tool, helps to install the Angular11.
+
+    - npm stands for node packaging manager.
+
+    - npm is the tool, present in NodeJS.
+
+
+website : https://nodejs.org/en/download/
+
+file    : node-v14.16.0-x64.msi
+
+
+2) install yarn tool
+
+    yarn is the tool, provided by facebook.
+
+    yarn tool, used to download the 3rd party libraries.
+
+    we will install yarn tool, by using following command.
+
+    > npm install -g yarn
+
+    - "-g" stands for global Installation.
+
+    current version of yarn tool is  yarn@1.22.10
+
+
+3) install Angular11
+
+    - we will install Angular11 by using following command.
+
+    > npm install -g @angular/cli
+
+    cli stands for command line interface
+
+    cli is the tool, provided by "google"
+
+    cli helps to create and execute the angular projects
+
+
+4) link the yarn tool to cli tool
+
+    > ng set --global packageManager=yarn
+
+
+5) install VisualStudioCode
+
+    - VisualStudioCode is the IDE
+
+    - VSCode Provided by Microsoft.
+
+    - VSCode IDE recomended to develop UI Applications
+
+    Ex.
+            angular
+            react
+            vuejs
+
+
+website : https://code.visualstudio.com/download
+
+file    :  VSCodeUserSetup-x64-1.53.2.exe
+
+
+
+create the first angular Application
+====================================
+step 1.
+
+    create the directory   (folder)
+
+    Ex.
+            Angular11@7   (open with VSCode)
+
+step 2.
+    create the angular project
+
+    > ng new firstApp
+
+    where "firstApp" is the name of the project
+
+step 3.
+    switch to angular application
+
+    > cd firstApp
+
+step 4.
+    execute the angular application
+
+    > ng s -o
+
+    "s" stands for serve
+
+    "-o" stands for open the default browser
+
+    the default port number of angular application is 4200
+
+Directory Structure of Angular Application
+==========================================
+
+e2e
+===
+    e2e stands for end to end.
+
+    e2e directory used to write the end to end test cases
+
+node_modules
+============
+    it containes libraries.
+
+    these libraries helps to execute the angular applications.
+
+
+src/app
+=======
+    it is used to deploy the angular applications
+
+    Ex.
+        single page applications
+
+        services
+
+        components
+
+        pipes
+
+        directives
+
+        ----
+        ----
+        ----
+
+src / app / app.module.ts
+=========================
+
+- above file we can call registration file.
+
+- above file we can call default module file.
+
+- as a angular developer, we must register our applications
+
+Ex.
+    components
+    services
+    ---
+    ---
+    ---
+
+src / app / app.component.ts
+
+            app.component.html
+
+            app.component.css
+
+            app.component.spec.ts
+
+=======================================
+
+    - when ever we create angular project, automatically "AppComponent" is the default component.
+
+    - all unit test cases files should have ".spec.ts" extension
+
+
+src/assets
+==========
+    - it is used to deploy the static resources.
+
+    Ex.
+
+        images
+
+        logos
+
+        xml files
+
+        json files
+
+        fonts
+
+src/environments
+================
+
+    - in general, we have following environments.
+
+    1) development environment
+
+    2) production environment
+
+    3) testing environment
+
+    - we can configure required environment here.
+
+src / favicon.ico
+=================
+
+    - this logo representing default logo of angular
+
+src / index.html
+================
+
+    - angular starts the extension from "index.html" file.
+
+    - "index.html" file is the main template.
+
+src / main.ts
+=============
+
+    - main.ts file acting as interface between index.html to app.module.ts file.
+
+    - angular starts the execution from index.html file
+
+    - index.html file immidiately invokes the "main.ts" file.
+
+    - main.ts file immidiately executes the app.module.ts file.
+
+    - app.module.ts file containes our applications registrations.
+
+    - based on our applications registrations, angular framework will execute the applications.
+
+src / polyfills.ts
+==================
+
+    - in general, we will prepare angular applications by using TypeScript.
+
+    - as a angular developer, we must convert TypeScript to Equalent JavaScript.
+
+    - polyfills acting as library, used to convert the TypeScript to Equalent JavaScript.
+
+src / styles.css
+================
+
+    - here, we can configure global styles.
+
+    - these styles applicable to entire angular application.
+
+src / test.ts
+=============
+
+    - this is the sample testing file.
+
+.browserslistrc
+===============
+
+    - it containes supporting browsers of Angular11
+
+angular.json
+============
+
+    - it describes angular application directory structure.
+
+karma.conf.js
+=============
+
+    - in general, we will write unit test cases by using karma tool.
+
+    - this file representing, configuration file of karma tool.
+
+package.json
+=============
+
+    - it is used to download the 3rd party libraries.
+
+
+tsconfig.app.json
+=================
+
+    - it is used to configure the application devel configurations
+
+
+tsconfig.json
+=============
+
+    - this file representing TypeScript configurations
+
+tsconfig.spec.json
+==================
+
+    - this file acting as controlling file for all test cases
+
+tslint.json
+===========
+
+    - this file acting as validator file for TypeScript.
+
+=======================================================================
+1) Components                                   OOPS
+
+2) Services                                     Modules
+
+3) Single Page Applications                     packages
+
+4) RxJS  (Rest API Calls)                           Workshop : debouncing & Throttling
+
+5) NgRx (State Management)
+========================================================================================
+
+ECommerce Application    (40 days)
+
+npx gitignore node
+==================
+    - used to avoid the movement of libraries to GitHub Repository.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
