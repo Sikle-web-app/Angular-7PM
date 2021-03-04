@@ -342,6 +342,87 @@ componentApp
 
 
 
+*****************************************************************
+multipleComponentApp
+                    src
+                       app
+                         components   
+                             mean.component.ts
+                             mean.component.html
+
+                             mern.component.ts
+                             mern.components.html
+
+                             mevn.component.ts
+                             mevn.components.html
+
+                             fullstack.component.ts
+                             fullstack.component.html
+                         app.module.ts
+                       index.html
+******************************************************************
+
+Services
+========
+    - Services are used to share the common business logic to multiple components.
+
+    - Services overcomes the data redundancy (duplicate code).
+
+    - communication between service to components called as dependency injection.
+
+
+***********************************************
+custServiceEx
+            src
+              app
+                services
+                    employee.service.ts
+                components
+                    comp.one.ts
+                    comp.one.html
+
+                    comp.two.ts
+                    comp.two.html
+
+                    comp.three.ts
+                    comp.three.html
+                app.module.ts
+               index.html
+*****************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
