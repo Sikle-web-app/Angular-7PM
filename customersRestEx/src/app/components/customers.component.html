@@ -1,0 +1,25 @@
+<ng-http-loader></ng-http-loader>
+<table border="1"
+       cellspacing="10px"
+       cellpadding="10px"
+       align="center">
+
+       <thead style="background-color: gray;">
+            <tr>
+                <th>SNO</th>
+                <th>Name</th>
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+       </thead>
+
+       <tbody>
+           <tr *ngFor="let obj of data.records;let i=index">
+                <td>{{i+1}}</td>
+                <td>{{obj.Name}}</td>
+                <td>{{obj.City}}</td>
+                <td>{{obj.Country}}</td>
+           </tr>
+       </tbody>
+
+</table>

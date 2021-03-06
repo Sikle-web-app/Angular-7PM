@@ -436,6 +436,182 @@ restAPIEx
 *********************************************************
 
 
+Rest API Ex
+===========
+
+URL : https://www.w3schools.com/angular/customers.php
+
+
+step 1.
+    create the modal
+
+*******************************************************
+customersRestEx
+              src
+                app
+                  model
+                    customers.model.ts
+*****************************************************
+
+    finally "Customers" model is ready
+
+step 2.
+    create the service
+
+***************************************************
+customersRestEx
+                src
+                  app
+                    services
+                        customers.service.ts
+**************************************************
+
+    finally "customersService" is ready with "getCustomers()" function
+
+
+step 3.
+    create the component
+
+**********************************************************
+customersRestEx
+              src
+                app
+                  components
+                     customers.component.ts
+                     customers.component.html
+**********************************************************
+
+
+step 4.
+    download ng-http-loader module
+
+    => ng-http-loader is the "3rd" party module
+
+    => ng-http-loader module, used to show the "progressbar" while loading the data.
+
+    => ng-http-loader, we will download from "yarn" tool.
+
+
+    > cd customersRestEx
+
+    > yarn add ng-http-loader --save
+
+step 5.
+    register the component
+
+    app.module.ts
+
+step 6.
+    call the selector
+
+    index.html
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
