@@ -391,6 +391,97 @@ custServiceEx
 *****************************************************
 
 
+Rest API Ex
+===========
+
+step 1.
+    create the modal object
+
+
+************************************************
+restAPIEx
+         src
+           app
+             modal
+                countries.modal.ts
+************************************************
+
+    finally "Country" modal is ready
+
+
+Step 2.
+    create the service
+
+**************************************************
+restAPIEx
+        src
+          app
+            services
+               countries.service.ts
+**************************************************
+
+        - finally "countriesService" is ready with "getContries()" function.
+
+
+step 3.
+    create the component.
+
+*********************************************************
+restAPIEx
+        src
+            app
+                components
+                    countries.component.ts
+                    countries.component.html
+*********************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,21 @@
+
+<table border="1"
+       cellpadding="10px"
+       cellspacing="10px"
+       align="center">
+    <tr>
+        <th>Name</th>
+        <th>Capital</th>
+        <th>Population</th>
+        <th>Region</th>
+        <th>Image</th>
+    </tr>
+
+    <tr *ngFor="let obj of data">
+        <td>{{obj.name}}</td>
+        <td>{{obj.capital}}</td>
+        <td>{{obj.population}}</td>
+        <td>{{obj.region}}</td>
+        <td><img width="100px" height="50px" src="{{obj.flag}}"></td>
+    </tr>
+</table>
