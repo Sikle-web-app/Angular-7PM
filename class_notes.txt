@@ -582,6 +582,160 @@ step 6.
 
 
 
+Spring Boot Integration with Angular
+====================================
+
+step 1.
+	download jdk
+
+	Ex.
+		openlogic-openjdk-11.0.8+10-windows-x64.zip
+
+
+step 2.
+	set the path environmental variable
+
+	path = C:\Users\samba\Downloads\openlogic-openjdk-11.0.8+10-windows-x64\openlogic-openjdk-11.0.8+10-win-x64\bin
+
+
+
+
+step 3.
+	run the following command in command prompt
+
+	> java -jar AngularDemo-0.0.1-SNAPSHOT.war
+
+
+step 4.
+	test the rest api by using Postman
+
+
+	=> http://localhost:8080/api/demo
+
+
+
+step 5.
+    create the angular project
+
+
+    > ng new springBootEx
+
+
+step 6.
+    create the model
+
+
+********************************************
+springBootEx
+            src
+               app
+                 model
+                    spring.model.ts
+********************************************
+
+
+    - finally "User" model is ready
+
+
+
+
+step 7.
+    create the service
+
+    > ng g s services/java --skip-tests --flat true
+
+    g stands for generate
+
+    s stands for service
+
+    --skip-tests means skip the generation of unit test cases
+
+    --flat true means don't deviate from directory structure.
+
+
+    finally "JavaService" is ready with "getUsers()" function.
+
+
+
+step 8.
+
+    create the component
+
+
+    > ng g c components/java  --skip-tests -is --selector=java --flat true
+
+
+    g stands for generate
+
+    c stands for component
+
+    --skip-tests means skip the unit test cases
+
+    -is stands for inline styles  (skip the css files generation)
+
+    --selector used to assign the selector
+
+    --flat-true means won't deviate from directory structure
+
+
+
+POST Request
+============
+
+    > ng g c components/uppercase --skip-tests --selector=uppercase -is --flat true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
