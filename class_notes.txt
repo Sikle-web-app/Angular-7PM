@@ -686,6 +686,86 @@ POST Request
 
 
 
+HTTP Post Request
+=================
+
+1) create the angular project
+
+
+    > ng new httpPostEx
+
+
+2) switch to angular project
+
+    > cd httpPostEx
+
+
+3) download ng-http-loader module
+
+
+    > yarn add ng-http-loader --save
+
+
+4) create the model
+
+    ***********************************
+    httpPostEx
+             src
+               app
+                 model
+                    uppercase.model.ts
+    ************************************
+
+    finally "Uppercase" model is ready
+
+
+
+5) create the service
+
+    > ng g s services/uppercase --skip-tests --flat true
+
+
+
+6) create the component
+
+    > ng g c components/uppercase --skip-tests --selector=uppercase --flat true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

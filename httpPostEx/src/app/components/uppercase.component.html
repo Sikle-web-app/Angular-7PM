@@ -1,0 +1,8 @@
+<!-- spinner -->
+<ng-http-loader></ng-http-loader>
+
+<input type="text" [(ngModel)]="my_msg">
+
+<button (click)="clickMe(my_msg)">Send</button>
+
+<h1>{{res | json}}</h1>
