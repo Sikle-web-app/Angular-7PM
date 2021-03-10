@@ -1,0 +1,62 @@
+TypeScript
+==========
+
+1) OOPS
+
+2) Modules
+
+3) NameSpaces
+
+4) Generics
+
+5) Interfaces
+
+6) Keywords in TypeScript
+
+        => this
+
+        => super
+
+        => readonly
+
+
+OOPS
+====
+
+1) classes
+
+2) objects
+
+3) inheritance
+
+    => single level inheritance
+
+    => multi level inheritance
+
+    => multiple inheritance
+
+    => hirarichal inheritance
+
+    => hybrid inheritance
+
+4) polymorphism
+
+    => function overloading
+
+    => function overriding
+
+5) Encapsulation
+
+
+6) Abstraction
+
+
+
+
+
+
+
+
+
+
+

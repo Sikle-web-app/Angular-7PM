@@ -552,6 +552,60 @@ step 6.
 
 
 
+10-03-2021
+=========
+step 1.
+    make the mongodb database ready.
+
+    => mongodb is the "NoSQL" database.
+
+    => mongodb won't support "SQL" and "PLSQL".
+
+    => mongodb supports "JSON".
+
+    => mongodb is the light weight database.
+
+*****************************************************************************
+        SQL                             NoSQL
+
+Ex.
+    Oracle                              MongoDB
+    MySQL
+    SQLServer
+
+    will support SQL and PLSQL          it won't support SQL and PLSQL
+
+
+    supports tables                     supports collections
+
+    support rows                        supports objects
+
+    supports databases                  supports databases
+
+    primary key                         _id  (auto generated id)
+***********************************************************************
+we can connect to mongodb database(cloud database) by using following URL.
+
+URL : https://account.mongodb.com/account/login
+
+
+database url : mongodb+srv://admin:admin@cluster0.fjor8.mongodb.net/ng9pm?retryWrites=true&w=majority
+
+collection name : products
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
