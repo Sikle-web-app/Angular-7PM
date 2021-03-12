@@ -86,38 +86,85 @@ var __extends = (this && this.__extends) || (function () {
         obj.fun_two()
     );
 */
+/*
+class Parent{
+    meanFun():any{
+        return {"key1":"Angular"};
+    };
+};
+
+class Child extends Parent{
+    mernFun():any{
+        return {"key1":"ReactJS"};
+    }
+};
+
+class SubChild extends Child{
+    mevnFun():any{
+        return {"key1":"VueJS"};
+    };
+};
+
+let obj:SubChild = new SubChild();
+console.log( obj.meanFun(), obj.mernFun(), obj.mevnFun() );
+*/
+/*
+    class Parent1{}
+
+    class Parent2{}
+
+    class Child extends Parent1,Parent2{}
+    //Multiple Inheritance Not Supported by TypeScript
+*/
 var Parent = /** @class */ (function () {
     function Parent() {
     }
-    Parent.prototype.meanFun = function () {
-        return { "key1": "Angular" };
+    Parent.prototype.fun_one = function () {
+        return "Parent !!!";
     };
     ;
     return Parent;
 }());
 ;
-var Child = /** @class */ (function (_super) {
-    __extends(Child, _super);
-    function Child() {
+var Child1 = /** @class */ (function (_super) {
+    __extends(Child1, _super);
+    function Child1() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    Child.prototype.mernFun = function () {
-        return { "key1": "ReactJS" };
-    };
-    return Child;
-}(Parent));
-;
-var SubChild = /** @class */ (function (_super) {
-    __extends(SubChild, _super);
-    function SubChild() {
-        return _super !== null && _super.apply(this, arguments) || this;
-    }
-    SubChild.prototype.mevnFun = function () {
-        return { "key1": "VueJS" };
+    Child1.prototype.fun_two = function () {
+        return "Child1 !!!";
     };
     ;
-    return SubChild;
-}(Child));
+    return Child1;
+}(Parent));
 ;
-var obj = new SubChild();
-console.log(obj.meanFun(), obj.mernFun(), obj.mevnFun());
+var Child2 = /** @class */ (function (_super) {
+    __extends(Child2, _super);
+    function Child2() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    Child2.prototype.fun_two = function () {
+        return "Child2 !!!";
+    };
+    ;
+    return Child2;
+}(Parent));
+;
+var Child3 = /** @class */ (function (_super) {
+    __extends(Child3, _super);
+    function Child3() {
+        return _super !== null && _super.apply(this, arguments) || this;
+    }
+    Child3.prototype.fun_two = function () {
+        return "Child3 !!!";
+    };
+    ;
+    return Child3;
+}(Parent));
+;
+var obj1 = new Child1();
+console.log(obj1.fun_one(), obj1.fun_two());
+var obj2 = new Child2();
+console.log(obj2.fun_one(), obj2.fun_two());
+var obj3 = new Child3();
+console.log(obj3.fun_one(), obj3.fun_two());

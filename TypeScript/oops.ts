@@ -101,21 +101,64 @@ console.log( obj.meanFun(), obj.mernFun(), obj.mevnFun() );
 
 
 
-class Parent1{}
+/*
+    class Parent1{}
 
-class Parent2{}
+    class Parent2{}
 
-class Child extends Parent1,Parent2{}
-//Multiple Inheritance Not Supported by TypeScript
-
-
-
-
+    class Child extends Parent1,Parent2{}
+    //Multiple Inheritance Not Supported by TypeScript
+*/
 
 
+/*
+    class Parent{
+        fun_one():string{
+            return "Parent !!!";
+        };
+    };
+
+    class Child1 extends Parent{
+        fun_two():string{
+            return "Child1 !!!";
+        };
+    };
+
+    class Child2 extends Parent{
+        fun_two():string{
+            return "Child2 !!!";
+        };
+    };
+
+    class Child3 extends Parent{
+        fun_two():string{
+            return "Child3 !!!";
+        };
+    };
+
+    let obj1:Child1 = new Child1();
+    console.log( obj1.fun_one(), obj1.fun_two() );
 
 
+    let obj2:Child2 = new Child2();
+    console.log( obj2.fun_one(), obj2.fun_two() );
 
+
+    let obj3:Child3 = new Child3();
+    console.log( obj3.fun_one(), obj3.fun_two() );
+*/
+
+/*
+    class Parent{}
+
+    class Child1 extends Parent{}
+
+    class Child2 extends Parent{}
+
+    class Subchild extends Child1,Child2{}
+*/
+
+//hybrid inheritance not supported by TypeScript
 
 
 
