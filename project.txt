@@ -1,0 +1,125 @@
+Step 1.
+    create the AWS Account
+
+    https://aws.amazon.com/   (credit card / debit card information)
+
+
+Step 2.
+    create S3 Bucket in AWS
+
+    S3 bucket is nothing but repository
+
+
+Step 3.
+    deploy images to S3 Bucket
+
+    => https://ng7pm.s3.ap-south-1.amazonaws.com/p1.jpg
+
+    => https://ng7pm.s3.ap-south-1.amazonaws.com/p2.jpg
+
+    => https://ng7pm.s3.ap-south-1.amazonaws.com/p3.jpg
+
+    => https://ng7pm.s3.ap-south-1.amazonaws.com/p4.jpg
+
+    => https://ng7pm.s3.ap-south-1.amazonaws.com/p5.jpg
+
+    => https://ng7pm.s3.ap-south-1.amazonaws.com/p6.jpg
+
+
+Step 4.
+    create the database in mongodb
+
+    URL : https://account.mongodb.com/account/login
+
+    database name  : ng7pm
+
+    collection name : products
+
+    user name : admin
+
+    password : admin
+
+    connection URL : mongodb+srv://admin:admin@miniprojectdb.nzphu.mongodb.net/ng7pm?retryWrites=true&w=majority
+
+Step 5.
+    create the node server
+
+    => node server used to create the http and tcp servers
+
+    => node supports the modules.
+
+    1) express
+
+        - express used to develop the rest api's
+
+        Ex.
+            GET
+            POST
+            PUT
+            DELETE
+            ---
+            ---
+            ---
+
+    2) cors
+
+        - used to enable the cors policy
+
+    3) body-parser
+
+        - automatically reads the data from client application
+
+    4) mongodb
+
+        - used to connect to mongodb database
+
+    ----
+    ----
+    ----
+    ----
+    ----
+
+    we can download above modules by using "yarn" tool
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
