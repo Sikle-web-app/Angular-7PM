@@ -51,6 +51,22 @@ OOPS
 6) Abstraction
 
 
+Interfaces
+==========
+
+    - if we know only declaration, but we don't know implentation then we will choose "interfaces".
+
+    - implentation known by either "JSON", or "classes".
+
+    - we will declare interfaces by using "interface" keyword.
+
+    - we will provide implentation to interfaces by using "implements" keyword
+
+
+
+
+
+
 
 
 
