@@ -44,60 +44,72 @@ Step 4.
 Step 5.
     create the node server
 
-    => node server used to create the http and tcp servers
+    => nodejs used to develop the servers
 
-    => node supports the modules.
+            Http Server
 
-    1) express
+            TCP Server
 
-        - express used to develop the rest api's
+    => we will develop node server by using JavaScript.
+
+    => node supports the modules
+
+        1) express
+
+            - express used to develop the rest services.
+
+            Ex.
+                    GET
+                    POST
+                    PUT
+                    DELETE
+        2) cors
+
+            - cors library used to enable the ports communication.
+
+        3) mongodb
+
+            - mongodb used to connect to mongodb database.
+        
+        4) body-parser
+
+            - body-parser module used to read the data from client application
+
+    a) create the directory (folder)
 
         Ex.
-            GET
-            POST
-            PUT
-            DELETE
-            ---
-            ---
-            ---
+                backend
 
-    2) cors
+    b) switch to backend directory
 
-        - used to enable the cors policy
+        > cd backend
 
-    3) body-parser
+    c) download the libraries
 
-        - automatically reads the data from client application
+            => express
 
-    4) mongodb
+            => cors
 
-        - used to connect to mongodb database
+            => mongodb
 
-    ----
-    ----
-    ----
-    ----
-    ----
+            => body-parser
 
-    we can download above modules by using "yarn" tool
+        > yarn add express cors mongodb body-parser --save
 
+        all the libraries downloads to "node_modules" folder in current path.
 
+    d) implement the node server
 
+        Ex.
+            server.js
 
+    e) start the server
 
+        > node server
 
+    f) test the rest api by using "Postman"
 
-
-
-
-
-
-
-
-
-
-
-
+        > http://localhost:8080/api/products
 
 
 
