@@ -112,6 +112,59 @@ Step 5.
         > http://localhost:8080/api/products
 
 
+16-01-2021
+==========
+
+HomeScreen
+==========
+
+    => Services  (RxJS)
+
+    => CSS3 & HTML5     (Responsive Web Design)
+
+    => Font Awasome   (Rating)
+
+    => communication Between Components
+
+    => Single Page Applications  (Routing)
+
+    => State Management (NgRx)
+
+
+step 1.
+    create the angular application
+
+    > ng new frontend
+
+
+step 2.
+    create the service to consume following rest api call
+
+    => http://localhost:8080/api/products
+
+    **********************************************
+    frontend
+           src
+             app
+               modal
+                product.ts
+               services
+                 products.service.ts
+    ***********************************************
+
+    finally "Product" modal is ready
+
+    finally "ProductsService" is ready with "getProducts()" function.
+
+
+
+
+
+
+
+
+
+
 
 
 
