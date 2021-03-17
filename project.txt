@@ -157,6 +157,38 @@ step 2.
     finally "ProductsService" is ready with "getProducts()" function.
 
 
+17-03-2021
+==========
+
+    => AppComponent is the default Component.
+
+        1) app.component.ts
+
+           app.component.html
+
+           app.component.css
+
+    => we will define global styles in "styles.css" file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
