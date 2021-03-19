@@ -170,6 +170,10 @@ step 2.
 
     => we will define global styles in "styles.css" file
 
+    => we will write presentation logic for HomeScreen in "app.component.html"
+
+    => global styles applicable to entire project.
+
 
 
 

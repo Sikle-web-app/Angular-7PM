@@ -1,55 +1,77 @@
-html {
-    font-size: 62.5%; /* default font size is 16px, we want to reduce to 10px*/
-    box-sizing: border-box; /* to overcome border issues, CSS3*/
-  }
-  body {
-    font-size: 1.6rem;
-    margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
-    height: 100vh;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-areas:
-      "header"
-      "main"
-      "footer";
-    height: 100%;
-    grid-template-columns: 1fr;
-    grid-template-rows: 5rem 1fr 5rem;
-  }
-  header {
-    grid-area: "header";
-    background-color: #203040;
-  }
-  main {
+html{
+  font-size: 62.5%;          /* default font-size is 16px, intensionaly want to reduce to 10px*/
+  box-sizing: border-box;    /* to overcome border issues, we will use CSS3 */
+}
+
+body{
+  font-size: 1.6rem;        /* 10px = 1rem*/
+  margin: 0;
+  font-family:  Helvetica,Arial, sans-serif;
+  height: 100vh;           /* vh=> view port height
+                                    responsive web design */
+}
+
+.grid-container{
+   display: grid;
+   grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 5rem;
+}
+
+header{
+   grid-area: "header";
+   background-color: #203040;
+}
+
+main{
     grid-area: "main";
     padding: 1rem;
-  }
-  footer {
-    grid-area: "footer";
-    background-color: #203040;
-    color: #ffffff;
-  }
-  .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: center;
-  }
-  .row.center {
-    justify-content: center;
-  }
-  a.brand {
-    font-size: 3rem;
-    font-weight: bold;
-    color: #ffffff;
-  }
-  a {
-    text-decoration: none;
-    color: #ffffff;
-    margin: 1rem;
-  }
-  a:hover {
-    color: orange;
-  }
+} 
+
+footer{
+   grid-area: "footer";
+   background-color: #203040;
+   color: #ffffff;
+}
+
+
+.row{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-content: center;
+}
+
+.row.center{
+  justify-content: center;
+}
+
+a.brand{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff; 
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+  margin: 1rem;
+}
+
+a:hover{
+  color: chocolate;
+}
+
+
+
+
+
+
+
+
+
+

@@ -63,6 +63,31 @@ Interfaces
     - we will provide implentation to interfaces by using "implements" keyword
 
 
+NameSpaces
+==========
+
+    - logical grouping of similar functionalities called as NameSpace / module.
+
+    - NameSpaces have "global scope".
+
+    - NameSpaces also called as "external" modules.
+
+    - we will declare NameSpaces by using "namespace" keyword..
+
+    - we can import namespace by using following syntax.
+
+    ///<ref path="file">
+
+
+
+
+
+
+
+
+
+
+
 
 
 
