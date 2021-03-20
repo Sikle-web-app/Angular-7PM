@@ -173,6 +173,60 @@ step 2.
     => we will write presentation logic for HomeScreen in "app.component.html"
 
     => global styles applicable to entire project.
+20-03-2021
+==========
+
+Single Page Application
+-----------------------
+    -loading one component to another component without "refreshing" called as Single Page Application.
+
+    -movement of components in Single Page Application called as "Routing".
+
+    -"Routes" is the predefined class, used to implement the Routing.
+
+    -Routes class present in "RouterModule".
+
+    -Routes and RouterModule present in "@angular/router"
+     package.
+
+
+1) create the child screens
+
+    > ng g c screens/products --skip-tests --selector=products -is --flat true
+
+    > ng g c screens/details --skip-tests --selector=details -is --flat true
+
+    > ng g c screens/cart --skip-tests --selector=cart -is --flat true
+
+
+2) define <router-outlet> directive
+
+    - <router-outlet></router-outlet> is the directive, used to load the one component to another component.
+
+    - <router-outlet></router-outlet> directive behaves like placeholder
+
+3) implement the Routings
+
+    *********************************************
+    frontend
+           src
+             app
+               routes
+                  app.routes.ts
+    *********************************************
+
+        "appRoutes" is the custom variable defines the Routing.
+
+    1)  "/"   => ProductsComponent
+
+    2) "/details"   => DetailsComponent
+
+    3) "/cart"     => CartComponent
+
+
+4) execute the Routes
+
+    app.module.ts
 
 
 
@@ -189,38 +243,4 @@ step 2.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
