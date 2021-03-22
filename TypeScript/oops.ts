@@ -9,6 +9,7 @@
 //we can refer current class members by using "this" keyword
 
 /*
+    //developer
     class class_one{
         private sub_one:string;
         private sub_two:string;
@@ -28,7 +29,10 @@
             return this.sub_three;
         };
     };
+
     let obj1:class_one = new class_one();
+    
+    //calling   //abstraction
     console.log( obj1.getSubOne(), obj1.getSubTwo(), obj1.getSubThree() );
 */
 
