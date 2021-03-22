@@ -173,6 +173,7 @@ step 2.
     => we will write presentation logic for HomeScreen in "app.component.html"
 
     => global styles applicable to entire project.
+
 20-03-2021
 ==========
 
@@ -227,6 +228,70 @@ Single Page Application
 4) execute the Routes
 
     app.module.ts
+
+
+22-03-2021
+==========
+State Management
+----------------
+
+1) http://localhost:8080/api/products
+
+
+2) modal
+
+
+3) actions
+
+
+4) effects
+
+
+5) reducer
+
+
+6) selector
+
+
+7) subscription and dispatching
+
+
+
+step 1.
+    download node modules
+
+    1) @ngrx/effects
+
+    2) @ngrx/store
+
+    > cd frontend
+
+    > yarn add @ngrx/effects @ngrx/store --save
+
+
+step 2.
+    create the modal
+
+    ***************************************
+    frontend
+           src  
+             app
+               modal 
+                  products.modal.ts
+    **************************************
+
+        finally "Product" modal is ready
+
+
+step 3.
+    create the actions.
+
+    => hit the server
+
+    => catch the posRes
+
+    => catch the errRes
+
 
 
 
